@@ -1,2 +1,2 @@
-# pmdm
-Módulo de Programación Multimedia y Dispositivos móviles
+# PROGRAMACIÓN MULTIMEDIA Y DISPOSITIVOS MÓVILES
+Contenidos y ejemplos del módulo de Programación Multimedia y Dispositivos Móviles.
