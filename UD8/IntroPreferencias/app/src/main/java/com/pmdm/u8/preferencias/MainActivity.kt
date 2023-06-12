@@ -19,11 +19,9 @@ class MainActivity : AppCompatActivity() {
 
         val prefs = getSharedPreferences("PreferenciasApp", Context.MODE_PRIVATE);
         val nombre = prefs.getString("nombre", "");
-
-
+        
         if(nombre!!.isNotEmpty())
             binding.etPreferencias.setText(nombre)
-
     }
 
 
