@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         val prefs = getSharedPreferences("PreferenciasApp", Context.MODE_PRIVATE);
         with(prefs.edit()){
-            putString("nombre", "Isaac");
+            putString("nombre", binding.etPreferencias.text.toString());
             apply();
         }
     }
